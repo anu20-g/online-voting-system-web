@@ -1,0 +1,1 @@
+# Online Voting System (Demo) - Team 1\n\nCreate a demonstration voting interface that records one browser-local vote and displays totals; not for real elections.\n\n## Preview\nOpen `index.html` in any modern web browser.\n

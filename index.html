@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Council Electronic Voting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ballot-card">
+        <h2>Campus Representative Election</h2>
+        <p>Please select one candidate to register your ballot.</p>
+        <div class="candidates">
+            <div class="candidate">
+                <span>Sarah Connor (Tech Club)</span>
+                <button onclick="vote(0)">Vote</button>
+            </div>
+            <div class="candidate">
+                <span>John Matrix (Athletics)</span>
+                <button onclick="vote(1)">Vote</button>
+            </div>
+        </div>
+        <div id="results" class="results-box">
+            <h4>Live Vote Counts</h4>
+            <p>Sarah Connor: <b id="v0">0</b></p>
+            <p>John Matrix: <b id="v1">0</b></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
